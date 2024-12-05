@@ -33,7 +33,7 @@ class ResumeAnalyzer:
                 - Separate technical and soft skills alignment when necessary.
                 - Provide examples or rewritten suggestions for grammar and clarity issues.
                 - Tailor feedback to be constructive and supportive.
-
+        response should be ats optimized
         Provide the response in JSON format.
 
         job_description = {job_description}
