@@ -1,0 +1,101 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+# Usually these files are written by a Python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.coverage
+*.cover
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Environment variables and virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# MyPy cache
+.mypy_cache/
+
+# Flask/Django specific
+instance/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+
+# AWS configuration
+*.pem
+*.key
+
+# Generated files
+*.bak
+*.swp
+*.swo
+*~
+
+# Local database files
+*.db
+
+# Static files (e.g., Flask/Django static files)
+static/
+media/
