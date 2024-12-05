@@ -60,8 +60,6 @@ def matchresume():
     return render_template('index.html', report=None)
 
 
-from flask import jsonify
-
 
 # @app.route('/matcher', methods=['POST', 'GET'])
 @app.route('/matcher', methods=['POST'])
