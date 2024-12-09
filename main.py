@@ -1,10 +1,9 @@
 import json
-from flask import Flask, request, render_template
 import os
-import docx2txt
 import PyPDF2
-import json
+import docx2txt
 import google.generativeai as genai
+from flask import Flask, request, render_template
 from werkzeug.utils import secure_filename
 
 from analysis import ResumeAnalyzer
@@ -52,13 +51,10 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
 
 
-# Assuming extract_text, analyzer, model, etc. are defined elsewhere in your code
-
 @app.route("/")
 def matchresume():
     # Render template with an empty report or None if it's a GET request
     return render_template('index.html', report=None)
-
 
 
 # @app.route('/matcher', methods=['POST', 'GET'])
